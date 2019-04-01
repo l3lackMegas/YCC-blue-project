@@ -1,0 +1,13 @@
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteCond %{REQUEST_URI} !=/index.php
+RewriteRule .* /index.php
+
+AddDefaultCharset utf-8

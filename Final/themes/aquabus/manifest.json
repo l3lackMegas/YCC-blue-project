@@ -1,0 +1,21 @@
+{
+    "short_name": "Roadmay",
+    "name": "Roadmay",
+    "icons": [
+      {
+        "src": "https://ycc.wasumi.site/themes/aquabus/img/logo.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+	  {
+		"src": "https://ycc.wasumi.site/themes/aquabus/img/logo.png",
+        "type": "image/png",
+        "sizes": "521"
+      }
+    ],
+    "start_url": "/login",
+    "background_color": "#fff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#fff"
+  }
