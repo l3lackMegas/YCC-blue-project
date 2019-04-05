@@ -3,9 +3,9 @@
     //Security
 	//Database
 	$dbServer = "localhost";
-	$dbUsername = "aquabus";
-	$dbPassword = "jh7_8Z5c";
-	$table = "aquabus";
+	$dbUsername = "";
+	$dbPassword = "";
+	$table = "";
 	//Mail config
 	$webmail = "admin@bnk48-stats.com";
 	$subject = " - BNK48-STATS";
